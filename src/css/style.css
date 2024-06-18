@@ -1,0 +1,79 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background: var(--background-color);
+}
+
+h2{
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+h2,h3{
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 318px;
+    height: 340px;
+    border-radius: 14px;
+}
+
+.grupo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.grupo1 .container__identificacao{
+    display: flex;
+    margin-top: 11px;
+}
+
+.grupo1 .container__identificacao h2{
+    padding-right: 10px;
+}
+
+.grupo3{
+    width: 100%;
+    height: 99px;
+}
+
+.grupo3 .container__numeros-socias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 3px rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+.grupo3 .container__numeros-socias .container-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    width: 280px;
+}
+
+.grupo3 .container__numeros-socias .container-principal .containerSeguidores, .containerCurtidas, .containerFotos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
